@@ -1,0 +1,24 @@
+.task{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+    background-color: #e1e5eb3b;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px rgba(0,0,0,0.1);
+   
+}
+.cross{
+    position: absolute;
+    right: 4px;
+    top:1px;
+    transition: all ease-in-out;
+
+}
+.cross:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
