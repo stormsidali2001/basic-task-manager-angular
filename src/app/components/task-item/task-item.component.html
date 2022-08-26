@@ -1,6 +1,7 @@
-<div class="task">
+<div  [ngClass]="{ reminder: task.reminder}" class="task" (dblclick)="onToggle(task)">
+    <!-- [ngClass]="{ reminder: task.reminder}" : set the class reminder if the property 'task.reminder' is true -->
     <h3>{{task.text}} 
-        <fa-icon class="cross" [ngStyle]="{'color':'#2B4865'}" [icon] ="faTimes" >
+        <fa-icon (click)="onDelete(task)" class="cross" [ngStyle]="{'color':'#2B4865'}" [icon] ="faTimes" >
         </fa-icon>
     </h3>
     <p>{{task.day}}</p>

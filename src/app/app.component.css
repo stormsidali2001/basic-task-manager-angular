@@ -1,4 +1,6 @@
 .container{
     background-color: #002a5b1f;
     backdrop-filter: blur(2px);
+    height: 80vh;
+    overflow-y:auto;
 }

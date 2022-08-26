@@ -8,6 +8,7 @@
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 3px rgba(0,0,0,0.1);
+    cursor: pointer;
    
 }
 .cross{
@@ -21,4 +22,7 @@
     transform: scale(1.1);
     cursor: pointer;
 
+}
+.task.reminder {
+    border-left: 4px solid #002B5B;
 }
