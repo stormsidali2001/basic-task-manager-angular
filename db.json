@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "id": 2,
-      "text": "Meeting at School",
-      "day": "May 6th at 1:30pm",
-      "reminder": false
-    },
-    {
       "id": 1,
       "text": "Meeting at School",
       "day": "May 6th at 1:30pm",
@@ -15,7 +9,7 @@
     {
       "text": "sfljfs",
       "day": "fskjsalkj",
-      "reminder": true,
+      "reminder": false,
       "id": 3
     }
   ]

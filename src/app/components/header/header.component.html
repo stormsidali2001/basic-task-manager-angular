@@ -1,7 +1,8 @@
 <header>
  
     <h1>Task Tracker</h1>
-    <app-button  
+    <app-button 
+      *ngIf="hasRoute('/')" 
       (btnClick) = "toggleAddTask()"
       text = "{{showAddTask? '-':'+'}}"
     ></app-button>
